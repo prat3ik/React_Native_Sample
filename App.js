@@ -95,7 +95,7 @@ export default class App extends Component<Props> {
         console.log("initialized react app")
 
         this.motionManager = NativeModules.MotionDnaReactBridge
-        this.motionManager.runMotionDna("<YOUR DEVELOPER KEY>",() => {
+        this.motionManager.runMotionDna("T9PVZR5SPF",() => {
           this.motionManager.setLocationNavisens();
           // this.motionManager.setLocationGPSOnly();
           // this.motionManager.setBinaryFileLoggingEnabled(true)
